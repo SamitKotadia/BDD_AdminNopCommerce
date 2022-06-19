@@ -1,0 +1,192 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3327099200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Search customer by Name",
+        "description": "",
+        "id": "login;search-customer-by-name",
+        "after": [
+          {
+            "result": {
+              "duration": 738098399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31957195700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Given User open URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/login",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.given_User_open_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376478701,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 21
+                },
+                {
+                  "val": "admin",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginSteps.user_enter_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14853976501,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20562800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I can can view dashboard",
+            "match": {
+              "location": "AddCustomerSteps.i_can_can_view_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114280099,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on customer menu",
+            "match": {
+              "location": "AddCustomerSteps.i_click_on_customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3917174800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on customers Manu Item",
+            "match": {
+              "location": "AddCustomerSteps.i_click_on_customers_Manu_Item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 718521200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter customer FirstName",
+            "match": {
+              "location": "SearchCustomerSteps.i_enter_customer_FirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215131600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter customer LastName",
+            "match": {
+              "location": "SearchCustomerSteps.i_enter_customer_LastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3126662400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on search button",
+            "match": {
+              "location": "SearchCustomerSteps.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158825900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should found Name in the search table",
+            "match": {
+              "location": "SearchCustomerSteps.i_should_found_Name_in_the_search_table()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@scf"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Customers.Feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@cf"
+      }
+    ]
+  }
+]
